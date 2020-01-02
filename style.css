@@ -5605,14 +5605,14 @@ blockquote {
 }
 
 .brand.black {
-	background-image: url("assets/logo-black.svg");
+	background-image: url("assets/logo-black.png");
 	background-position: 50% 50%;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .brand.white {
-	background-image: url("assets/logo-white.svg");
+	background-image: url("assets/logo-white.png");
 	background-position: 50% 50%;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -5626,11 +5626,11 @@ blockquote {
 	bottom: auto;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url("assets/logo-white.svg");
+	background-image: url("assets/logo-white.png");
 }
 
 .brand.white.middle-absolute.w--current {
-	background-image: url("assets/logo-white.svg");
+	background-image: url("assets/logo-white.png");
 }
 
 .brand.white.left-absolute {
@@ -5645,7 +5645,7 @@ blockquote {
 
 .brand.white.pre {
 	width: 100%;
-	background-image: url("assets/logo-white.svg");
+	background-image: url("assets/logo-white.png");
 }
 
 .overflow-hidden {
