@@ -106,7 +106,7 @@
 
 							<!-- header text -->
 
-							<!-- <h5 class="display-1 margin-paragraph">UX DESIGNER<br>with<br>CODING<br>SKILLS<br><br></h5> -->
+							<!-- <h5 class="display-1 margin-paragraph">DRUHIN<br>TARAFDER<hr></h5> -->
 
 							<div class="link-block">
 								<div>Scroll Down</div>
@@ -350,6 +350,7 @@
 					<div class="uppercase margin-bottom">POSTAL ADDRESS<br></div>
 					<div>53, Annada Bannerjee Road,<br>Bhatpara - 743123</div>
 					<div class="line-bottom-mobile"></div>
+
 				</div>
 
 
@@ -401,6 +402,81 @@
 			<div class="menu-icon w-icon-nav-menu"></div>
 		</div>
 	</div>
+
+	<script>
+		function init() {
+			new SmoothScroll(document, 120, 20)
+		}
+
+		function SmoothScroll(target, speed, smooth) {
+			if (target === document)
+				target = (document.scrollingElement ||
+					document.documentElement ||
+					document.body.parentNode ||
+					document.body) // cross browser support for document scrolling
+
+			var moving = false
+			var pos = target.scrollTop
+			var frame = target === document.body &&
+				document.documentElement ?
+				document.documentElement :
+				target // safari is the new IE
+
+			target.addEventListener('mousewheel', scrolled, {
+				passive: false
+			})
+			target.addEventListener('DOMMouseScroll', scrolled, {
+				passive: false
+			})
+
+			function scrolled(e) {
+				e.preventDefault(); // disable default scrolling
+
+				var delta = normalizeWheelDelta(e)
+
+				pos += -delta * speed
+				pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight)) // limit scrolling
+
+				if (!moving) update()
+			}
+
+			function normalizeWheelDelta(e) {
+				if (e.detail) {
+					if (e.wheelDelta)
+						return e.wheelDelta / e.detail / 40 * (e.detail > 0 ? 1 : -1) // Opera
+					else
+						return -e.detail / 3 // Firefox
+				} else
+					return e.wheelDelta / 120 // IE,Safari,Chrome
+			}
+
+			function update() {
+				moving = true
+
+				var delta = (pos - target.scrollTop) / smooth
+
+				target.scrollTop += delta
+
+				if (Math.abs(delta) > 0.5)
+					requestFrame(update)
+				else
+					moving = false
+			}
+
+			var requestFrame = function() { // requestAnimationFrame cross browser
+				return (
+					window.requestAnimationFrame ||
+					window.webkitRequestAnimationFrame ||
+					window.mozRequestAnimationFrame ||
+					window.oRequestAnimationFrame ||
+					window.msRequestAnimationFrame ||
+					function(func) {
+						window.setTimeout(func, 1000 / 50);
+					}
+				);
+			}()
+		}
+	</script>
 
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
