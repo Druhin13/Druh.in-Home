@@ -5262,22 +5262,22 @@ blockquote {
 }
 
 .bg-image.fade-in.studio_b-home_insta_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb937d916d280c_insta-1.jpg");
+	background-image: url(assets/dribbble1.png);
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .bg-image.fade-in.studio_b-home_insta_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb934b466d2807_insta-2.jpg");
+	background-image: url(assets/dribbble2.png);
 }
 
 .bg-image.fade-in.studio_b-home_insta_3 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9381af6d2804_insta-3.jpg");
+	background-image: url(assets/dribbble3.png);
 }
 
 .bg-image.fade-in.studio_b-home_insta_4 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e26f6d2805_insta-4.jpg");
+	background-image: url(assets/dribbble4.png);
 }
 
 .bg-image.fade-in.relativ {
