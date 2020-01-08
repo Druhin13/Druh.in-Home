@@ -1,2 +1,2 @@
-## Source code of Druh.in
+## Source code of Druh.in - Homepage
 
