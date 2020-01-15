@@ -1564,13 +1564,6 @@ textarea.w-select {
 	grid-column-gap: 16px;
 }
 
-.w-commerce-commerceaddtocartform {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 15px;
-	margin-left: 0px;
-}
-
 .w-commerce-commerceaddtocartquantityinput {
 	background-color: #fafafa;
 	border-top-style: solid;
