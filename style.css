@@ -1384,39 +1384,6 @@ textarea.w-select {
 	height: 100%
 }
 
-.w-lightbox-control {
-	position: absolute;
-	top: 0;
-	width: 4em;
-	background-size: 24px;
-	background-repeat: no-repeat;
-	background-position: center;
-	cursor: pointer;
-	-webkit-transition: all .3s;
-	transition: all .3s
-}
-
-.w-lightbox-left {
-	display: none;
-	bottom: 0;
-	left: 0;
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yMCAwIDI0IDQwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiPjxnIHRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHBhdGggZD0ibTAgMGg1djIzaDIzdjVoLTI4eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDN2MjNoMjN2M2gtMjZ6IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==")
-}
-
-.w-lightbox-right {
-	display: none;
-	right: 0;
-	bottom: 0;
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMjQgNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0MCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMC0waDI4djI4aC01di0yM2gtMjN6IiBvcGFjaXR5PSIuNCIvPjxwYXRoIGQ9Im0xIDFoMjZ2MjZoLTN2LTIzaC0yM3oiIGZpbGw9IiNmZmYiLz48L2c+PC9zdmc+")
-}
-
-.w-lightbox-close {
-	right: 0;
-	height: 2.6em;
-	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMTggMTciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMCAwaDd2LTdoNXY3aDd2NWgtN3Y3aC01di03aC03eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDd2LTdoM3Y3aDd2M2gtN3Y3aC0zdi03aC03eiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=");
-	background-size: 18px
-}
-
 .w-lightbox-strip {
 	position: absolute;
 	bottom: 0;
@@ -2758,20 +2725,7 @@ blockquote {
 	transform: scale(1.05);
 }
 
-.bg-image.fade-in.studio_a-about_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9349346d27f8_room-GkWrEPTyDRs-unsplash.jpg");
-	background-position: 100% 50%;
-}
 
-.bg-image.fade-in.studio_a-about_3 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb939cb26d27ff_room-B_8FwpJICIo-unsplash.jpg");
-	background-position: 100% 50%;
-}
-
-.bg-image.fade-in.studio_a-about_4 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb939e8f6d2803_room-FZrn8fhqpp8-unsplash.jpg");
-	background-position: 100% 50%;
-}
 
 .bg-image.fade-in.studio_b-home_insta_1 {
 	background-image: url(assets/dribbble1.webp);
@@ -2796,86 +2750,13 @@ blockquote {
 	position: relative;
 }
 
-.bg-image.agency_a-home-2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8bb80cb155f4e42a8bbb96_st.%20albert%202%20clock%20tower.jpeg");
-	background-position: 50% 50%;
-	background-size: 50%;
-	background-repeat: no-repeat;
-}
 
-.bg-image.agency_a-contact_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8902fed60bc45ed07cf727_33463151_1914017351951227_4781717043462275072_o.jpg");
-}
-
-.bg-image.agency_b-work {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931a066d27dc_5d1cb3172b2ad2d87047f582_18AW_xSP_XO_Q4_1639_RGB.jpg");
-	background-position: 50% 50%;
-}
-
-.bg-image.agency_b-about {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93dbe46d27da_photo-1496345875659-11f7dd282d1d.jpeg");
-}
-
-.bg-image.studio_b-about_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93dbe46d27da_photo-1496345875659-11f7dd282d1d.jpeg");
-}
-
-.bg-image.freelance-work_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931a066d27dc_5d1cb3172b2ad2d87047f582_18AW_xSP_XO_Q4_1639_RGB.jpg");
-}
 
 .bg-image.greyscale {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
-.bg-image.studio_a-about_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93753e6d27fb_room-5LRUg3IwNpI-unsplash.jpg");
-}
-
-.bg-image.studio_a-about_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93753e6d27fb_room-5LRUg3IwNpI-unsplash.jpg");
-}
-
-.bg-image.puma {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e5bf6d27fa_main-5.jpg");
-}
-
-.bg-image.unsplash {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9349346d27f8_room-GkWrEPTyDRs-unsplash.jpg");
-}
-
-.bg-image.pudder {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9310c16d27df_Web-_N2A4409_190510_055459.jpg");
-}
-
-.bg-image.studio_b-about_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9349446d27fc_room-l9QPabiKKhw-unsplash.jpg");
-}
-
-.bg-image.studio_b-work_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9381af6d2804_insta-3.jpg");
-}
-
-.bg-image.studio_b-work_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb934b466d2807_insta-2.jpg");
-}
-
-.bg-image.studio_b-work_3 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e26f6d2805_insta-4.jpg");
-}
-
-.bg-image.studio_b-work_4 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb937d916d280c_insta-1.jpg");
-}
-
-.bg-image.be {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb932e236d2862_0d1d5c84240615.5d5634fb7325c.jpg");
-}
-
-.bg-image.offscreen {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb932d816d2863_3e516f77547291.5cd451aab83cd.jpg");
-}
 
 .margin-paragraph {
 	position: relative;
@@ -3302,91 +3183,7 @@ blockquote {
 	transition: background-color 200ms ease;
 }
 
-.icn-social-big:hover {
-	background-color: #f96446;
-	color: #fff;
-}
 
-.icn-social-big.facebook {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93a8bd6d279b_facebook-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.facebook:hover {
-	background-color: #365899;
-}
-
-.icn-social-big.twitter {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb930ef16d2774_twitter-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.twitter:hover {
-	background-color: #1da1f2;
-}
-
-.icn-social-big.pinterest {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93d2b46d2781_pinterest-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.pinterest:hover {
-	background-color: #e60023;
-}
-
-.icn-social-big.linkedin {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9321066d2775_linkedin-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.linkedin:hover {
-	background-color: #0077b5;
-}
-
-.icn-social-big.behance {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93f07f6d278a_behance-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.behance:hover {
-	background-color: #0057ff;
-}
-
-.icn-social-big.instagram {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.instagram:hover {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), -webkit-gradient(linear, left top, left bottom, from(#6851c3), color-stop(50%, #c63288), to(#f78030));
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), linear-gradient(180deg, #6851c3, #c63288 50%, #f78030);
-	background-position: 50% 50%, 0px 0px;
-	background-size: 40%, auto;
-	background-repeat: no-repeat, repeat;
-}
-
-.icn-social-big.dribbble {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9353336d27c4_icn-dribbble.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big.dribbble:hover {
-	background-color: #ea4c89;
-}
 
 .display-3 {
 	position: relative;
@@ -3771,80 +3568,6 @@ blockquote {
 	position: fixed;
 }
 
-.tooltip.thumb {
-	top: -128px;
-	z-index: 0;
-	display: none;
-	width: 256px;
-	height: 256px;
-	grid-auto-columns: 1fr;
-	grid-column-gap: 16px;
-	grid-row-gap: 16px;
-	-ms-grid-columns: 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
-	-ms-grid-rows: auto auto;
-	grid-template-rows: auto auto;
-	border-radius: 0px;
-	background-color: transparent;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb933d7a6d27e1_MV_VONDERLIPPE_02.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.tooltip.about {
-	left: 128px;
-	top: -15vw;
-	z-index: 2;
-	display: none;
-	width: 20vw;
-	height: 30vw;
-	min-height: 384px;
-	min-width: 256px;
-	padding: 0px;
-	border-radius: 0px;
-	background-color: transparent;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93dbe46d27da_photo-1496345875659-11f7dd282d1d.jpeg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.tooltip.editorial {
-	left: 128px;
-	top: -15vw;
-	z-index: 2;
-	display: none;
-	width: 20vw;
-	height: 30vw;
-	min-height: 384px;
-	min-width: 256px;
-	padding: 0px;
-	border-radius: 0px;
-	background-color: transparent;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9327586d27de_RubyDagnall_Costume_01_5609.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.tooltip.commercial {
-	left: 128px;
-	top: -15vw;
-	z-index: 2;
-	display: none;
-	width: 20vw;
-	height: 30vw;
-	min-height: 384px;
-	min-width: 256px;
-	padding: 0px;
-	border-radius: 0px;
-	background-color: transparent;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9310c16d27df_Web-_N2A4409_190510_055459.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
 .tooltip_hover-trigger {
 	position: relative;
@@ -4352,10 +4075,6 @@ blockquote {
 	background-repeat: no-repeat;
 }
 
-.hero-cutted-img.agency_b-hero_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9310c16d27df_Web-_N2A4409_190510_055459.jpg");
-}
-
 .absolute-hero {
 	position: absolute;
 	left: 0%;
@@ -4532,21 +4251,6 @@ blockquote {
 	opacity: 0.5;
 }
 
-.awards-gif {
-	position: relative;
-	top: -8px;
-	display: inline-block;
-	width: 64px;
-	height: 64px;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931abb6d27ba_awards-logos-dark.gif");
-	background-position: 50% 50%;
-	background-size: cover;
-	color: transparent;
-}
-
-.awards-gif.white {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9306b46d283b_awards-logos-white.gif");
-}
 
 .hairline {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -4619,19 +4323,6 @@ blockquote {
 	border-radius: 100px;
 }
 
-.avatar.contact-1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8561f787192a47fc89aa59_dasasd.JPG");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.avatar.contact-2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8bb549831a6d4e605deee1_14721572_10209052192416186_4557282539588831249_n.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
 .avatar-holder {
 	overflow: hidden;
@@ -4948,18 +4639,6 @@ blockquote {
 	height: 100%;
 }
 
-.client-gif {
-	position: relative;
-	display: inline-block;
-	width: 6vw;
-	height: 6vw;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931abb6d27ba_awards-logos-dark.gif");
-	background-position: 50% 50%;
-	background-size: 64px;
-	background-repeat: no-repeat;
-	color: transparent;
-}
-
 .growth-section {
 	position: relative;
 	overflow: hidden;
@@ -5123,90 +4802,7 @@ blockquote {
 	transition: background-color 200ms ease;
 }
 
-.icn-social-big-outline:hover {
-	color: #fff;
-}
 
-.icn-social-big-outline.facebook {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93a8bd6d279b_facebook-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.facebook:hover {
-	background-color: #365899;
-}
-
-.icn-social-big-outline.twitter {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb930ef16d2774_twitter-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.twitter:hover {
-	background-color: #1da1f2;
-}
-
-.icn-social-big-outline.pinterest {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93d2b46d2781_pinterest-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.pinterest:hover {
-	background-color: #e60023;
-}
-
-.icn-social-big-outline.linkedin {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9321066d2775_linkedin-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.linkedin:hover {
-	background-color: #0077b5;
-}
-
-.icn-social-big-outline.behance {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93f07f6d278a_behance-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.behance:hover {
-	background-color: #0057ff;
-}
-
-.icn-social-big-outline.instagram {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.instagram:hover {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), -webkit-gradient(linear, left top, left bottom, from(#6851c3), color-stop(50%, #c63288), to(#f78030));
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), linear-gradient(180deg, #6851c3, #c63288 50%, #f78030);
-	background-position: 50% 50%, 0px 0px;
-	background-size: 40%, auto;
-	background-repeat: no-repeat, repeat;
-}
-
-.icn-social-big-outline.dribbble {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9353336d27c4_icn-dribbble.svg");
-	background-position: 50% 50%;
-	background-size: 40%;
-	background-repeat: no-repeat;
-}
-
-.icn-social-big-outline.dribbble:hover {
-	background-color: #ea4c89;
-}
 
 .bg-image-on-hover {
 	position: absolute;
@@ -5484,202 +5080,7 @@ blockquote {
 	color: #fff;
 }
 
-.icn-social-small {
-	width: 24px;
-	height: 24px;
-	margin-right: 4px;
-	margin-left: 4px;
-	border-bottom-style: none;
-	border-radius: 100px;
-	background-color: rgba(51, 51, 51, 0.95);
-	-webkit-transition: background-color 200ms ease;
-	transition: background-color 200ms ease;
-}
 
-.icn-social-small:hover {
-	background-color: #f96446;
-	color: #fff;
-}
-
-.icn-social-small.facebook {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93a8bd6d279b_facebook-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.facebook:hover {
-	background-color: #365899;
-}
-
-.icn-social-small.twitter {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb930ef16d2774_twitter-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.twitter:hover {
-	background-color: #1da1f2;
-}
-
-.icn-social-small.pinterest {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93d2b46d2781_pinterest-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.pinterest:hover {
-	background-color: #e60023;
-}
-
-.icn-social-small.linkedin {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9321066d2775_linkedin-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.linkedin:hover {
-	background-color: #0077b5;
-}
-
-.icn-social-small.behance {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93f07f6d278a_behance-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.behance:hover {
-	background-color: #0057ff;
-}
-
-.icn-social-small.instagram {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.instagram:hover {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), -webkit-gradient(linear, left top, left bottom, from(#6851c3), color-stop(50%, #c63288), to(#f78030));
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), linear-gradient(180deg, #6851c3, #c63288 50%, #f78030);
-	background-position: 50% 50%, 0px 0px;
-	background-size: 40%, auto;
-	background-repeat: no-repeat, repeat;
-}
-
-.icn-social-small.dribbble {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9353336d27c4_icn-dribbble.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small.dribbble:hover {
-	background-color: #ea4c89;
-}
-
-.icn-social-small-outline {
-	width: 24px;
-	height: 24px;
-	margin-right: 4px;
-	margin-left: 4px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgba(51, 51, 51, 0.95);
-	border-radius: 100px;
-	background-color: transparent;
-	-webkit-transition: background-color 200ms ease;
-	transition: background-color 200ms ease;
-}
-
-.icn-social-small-outline:hover {
-	color: #fff;
-}
-
-.icn-social-small-outline.facebook {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93a8bd6d279b_facebook-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.facebook:hover {
-	background-color: #365899;
-}
-
-.icn-social-small-outline.twitter {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb930ef16d2774_twitter-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.twitter:hover {
-	background-color: #1da1f2;
-}
-
-.icn-social-small-outline.pinterest {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93d2b46d2781_pinterest-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.pinterest:hover {
-	background-color: #e60023;
-}
-
-.icn-social-small-outline.linkedin {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9321066d2775_linkedin-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.linkedin:hover {
-	background-color: #0077b5;
-}
-
-.icn-social-small-outline.behance {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93f07f6d278a_behance-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.behance:hover {
-	background-color: #0057ff;
-}
-
-.icn-social-small-outline.instagram {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.instagram:hover {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), -webkit-gradient(linear, left top, left bottom, from(#6851c3), color-stop(50%, #c63288), to(#f78030));
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93631d6d2772_instagram-white.svg"), linear-gradient(180deg, #6851c3, #c63288 50%, #f78030);
-	background-position: 50% 50%, 0px 0px;
-	background-size: 40%, auto;
-	background-repeat: no-repeat, repeat;
-}
-
-.icn-social-small-outline.dribbble {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9353336d27c4_icn-dribbble.svg");
-	background-position: 50% 50%;
-	background-size: 8px;
-	background-repeat: no-repeat;
-}
-
-.icn-social-small-outline.dribbble:hover {
-	background-color: #ea4c89;
-}
 
 .line-bottom-mobile {
 	width: 0px;
@@ -5897,27 +5298,6 @@ blockquote {
 	background-repeat: no-repeat;
 }
 
-.background-image-hero.home-2-2 {
-	left: 0%;
-	top: auto;
-	right: 0%;
-	bottom: 0%;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93ab316d27e9_main-1.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.background-image-hero.home-2-1 {
-	left: 0%;
-	top: auto;
-	right: 0%;
-	bottom: 0%;
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e5bf6d27fa_main-5.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
 .right-section {
 	position: absolute;
