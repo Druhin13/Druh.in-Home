@@ -2391,86 +2391,14 @@ blockquote {
 	position: relative;
 }
 
-.bg-image.agency_a-home-2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8bb80cb155f4e42a8bbb96_st.%20albert%202%20clock%20tower.jpeg");
-	background-position: 50% 50%;
-	background-size: 50%;
-	background-repeat: no-repeat;
-}
 
-.bg-image.agency_a-contact_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d8902fed60bc45ed07cf727_33463151_1914017351951227_4781717043462275072_o.jpg");
-}
-
-.bg-image.agency_b-work {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931a066d27dc_5d1cb3172b2ad2d87047f582_18AW_xSP_XO_Q4_1639_RGB.jpg");
-	background-position: 50% 50%;
-}
-
-.bg-image.agency_b-about {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93dbe46d27da_photo-1496345875659-11f7dd282d1d.jpeg");
-}
-
-.bg-image.studio_b-about_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93dbe46d27da_photo-1496345875659-11f7dd282d1d.jpeg");
-}
-
-.bg-image.freelance-work_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb931a066d27dc_5d1cb3172b2ad2d87047f582_18AW_xSP_XO_Q4_1639_RGB.jpg");
-}
 
 .bg-image.greyscale {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
-.bg-image.studio_a-about_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93753e6d27fb_room-5LRUg3IwNpI-unsplash.jpg");
-}
 
-.bg-image.studio_a-about_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93753e6d27fb_room-5LRUg3IwNpI-unsplash.jpg");
-}
-
-.bg-image.puma {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e5bf6d27fa_main-5.jpg");
-}
-
-.bg-image.unsplash {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9349346d27f8_room-GkWrEPTyDRs-unsplash.jpg");
-}
-
-.bg-image.pudder {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9310c16d27df_Web-_N2A4409_190510_055459.jpg");
-}
-
-.bg-image.studio_b-about_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9349446d27fc_room-l9QPabiKKhw-unsplash.jpg");
-}
-
-.bg-image.studio_b-work_1 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb9381af6d2804_insta-3.jpg");
-}
-
-.bg-image.studio_b-work_2 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb934b466d2807_insta-2.jpg");
-}
-
-.bg-image.studio_b-work_3 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb93e26f6d2805_insta-4.jpg");
-}
-
-.bg-image.studio_b-work_4 {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb937d916d280c_insta-1.jpg");
-}
-
-.bg-image.be {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb932e236d2862_0d1d5c84240615.5d5634fb7325c.jpg");
-}
-
-.bg-image.offscreen {
-	background-image: url("https://uploads-ssl.webflow.com/5d83a667c3eb932cd06d2742/5d83a667c3eb932d816d2863_3e516f77547291.5cd451aab83cd.jpg");
-}
 
 .margin-paragraph {
 	position: relative;
