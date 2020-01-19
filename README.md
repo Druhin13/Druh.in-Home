@@ -3,16 +3,17 @@ of
 Druh.in - Homepage
 <br>
 
-<br>
-<b>Desktop View :-</b>
-
-<br>
 
 <br>
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/46156118/72678664-1e0c0680-3ace-11ea-8ce3-9d668d0d4810.gif)
 <br>
 <br>
+<br>
+
+<br>
+<b>Desktop View :-</b>
+
 <br>
 
 
