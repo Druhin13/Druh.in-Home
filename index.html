@@ -123,7 +123,7 @@
 				<div class="growth-section w-dyn-list">
 					<div class="w-dyn-items">
 						<div id="w-node-2cafa85cdae7-c36d2797" class="collection-item w-dyn-item">
-							<div style="background-image:url(assets/bg1.webp)" class="bg-image"></div>
+							<div style="background-image:url(https://raw.githubusercontent.com/Druhin13/Druh.in-Home/master/assets/bg1.webp)" class="bg-image"></div>
 						</div>
 					</div>
 				</div>
@@ -262,10 +262,10 @@
 							</div>
 							<div class="project-info centered">
 								<h4 class="no-bottom">Kerala On Road
-								<div class="category-holder centered">
-									<div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="caption compare-price w-dyn-bind-empty"></div>
-									<div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="caption">Details Coming Soon</div>
-								</div>
+									<div class="category-holder centered">
+										<div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="caption compare-price w-dyn-bind-empty"></div>
+										<div data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="caption">Details Coming Soon</div>
+									</div>
 							</div>
 						</a></div>
 					<div id="w-node-0435d54b3a35-c36d2797" class="collection-item w-dyn-item"><a class="tooltip_hover-trigger more w-inline-block">
@@ -405,80 +405,6 @@
 		</div>
 	</div>
 
-	<script>
-		function init() {
-			new SmoothScroll(document, 200, 100)
-		}
-
-		function SmoothScroll(target, speed, smooth) {
-			if (target === document)
-				target = (document.scrollingElement ||
-					document.documentElement ||
-					document.body.parentNode ||
-					document.body) // cross browser support for document scrolling
-
-			var moving = false
-			var pos = target.scrollTop
-			var frame = target === document.body &&
-				document.documentElement ?
-				document.documentElement :
-				target // safari is the new IE
-
-			target.addEventListener('mousewheel', scrolled, {
-				passive: false
-			})
-			target.addEventListener('DOMMouseScroll', scrolled, {
-				passive: false
-			})
-
-			function scrolled(e) {
-				e.preventDefault(); // disable default scrolling
-
-				var delta = normalizeWheelDelta(e)
-
-				pos += -delta * speed
-				pos = Math.max(0, Math.min(pos, target.scrollHeight - frame.clientHeight)) // limit scrolling
-
-				if (!moving) update()
-			}
-
-			function normalizeWheelDelta(e) {
-				if (e.detail) {
-					if (e.wheelDelta)
-						return e.wheelDelta / e.detail / 40 * (e.detail > 0 ? 1 : -1) // Opera
-					else
-						return -e.detail / 3 // Firefox
-				} else
-					return e.wheelDelta / 120 // IE,Safari,Chrome
-			}
-
-			function update() {
-				moving = true
-
-				var delta = (pos - target.scrollTop) / smooth
-
-				target.scrollTop += delta
-
-				if (Math.abs(delta) > 0.5)
-					requestFrame(update)
-				else
-					moving = false
-			}
-
-			var requestFrame = function() { // requestAnimationFrame cross browser
-				return (
-					window.requestAnimationFrame ||
-					window.webkitRequestAnimationFrame ||
-					window.mozRequestAnimationFrame ||
-					window.oRequestAnimationFrame ||
-					window.msRequestAnimationFrame ||
-					function(func) {
-						window.setTimeout(func, 1000 / 50);
-					}
-				);
-			}()
-		}
-	</script>
 
 
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -489,4 +415,3 @@
 </body>
 
 </html>
-	
